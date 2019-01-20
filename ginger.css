@@ -25,17 +25,9 @@ margin-left: 30%;
 	float: right;
   display:block;
   padding: 4% 4%;
-  
-  
-
- 
- 
- 
   border: none;
   border-radius: 50%;
- 
 }
- 
 
 .drop {
 	width:20%;
@@ -47,8 +39,8 @@ margin-left: 30%;
 	position: absolute;
 	background-color: black;
 	color: white;
-	top: 12vw;
-	right: 0;
+	top: 22vw;
+	right: 10%;
 	border-radius: 5%;
 	visibility: hidden;
 	opacity: 0;
@@ -63,6 +55,8 @@ margin-left: 30%;
 	color: white;
 	border-bottom: thin solid white;
 }
+a#z { border: none; }
+
 .drop:hover .dropcontent {
 	visibility: visible;
 	opacity: 1;
