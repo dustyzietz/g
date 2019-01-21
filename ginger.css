@@ -21,46 +21,59 @@ margin-left: 30%;
 .c {
 	margin-top: 30vw;
 }
-.button {
-	float: right;
-  display:block;
-  padding: 4% 4%;
-  border: none;
-  border-radius: 50%;
-}
 
 .drop {
 	width:20%;
 	height: 20%;
-	
+	float: right;
 	position: relative;
+	margin: 5% 5% 0 0;
 }
-.dropcontent {
+
+#dropc {
 	position: absolute;
 	background-color: black;
 	color: white;
-	top: 22vw;
-	right: 10%;
+	top: 18vw;
+	right: -4vw;
 	border-radius: 5%;
 	visibility: hidden;
 	opacity: 0;
+	-moz-transition: 1s;
 	-webkit-transition: 1s;
 	transition: 1s;
-
+   width: 90vw;
 }
-.dropcontent a {
-	display: block;
-	padding: 2vw 5vw;
-	text-decoration: none;
-	color: white;
-	border-bottom: thin solid white;
-}
-a#z { border: none; }
-
-.drop:hover .dropcontent {
+div.drop:hover #dropc {
 	visibility: visible;
 	opacity: 1;
 }
+div.dropitem {
+	padding: 2vw 5vw;
+	color: white;
+	border-bottom: thin solid white;
+}
+div.di6 { border: none; }
+
+
+.page {
+	border-radius: 5%;
+	position: absolute;
+	visibility: hidden;
+	background-color: black;
+	width: 100%;
+	height: 125vw;
+	text-align: center;
+	top: 0;
+}
+div.closebut {
+	width: 20%;
+	height: auto;
+	float: right;
+	margin: 5% 5% 0 0;
+	filter:invert(100%);
+}
+
 
 .btext {
 	text-align: center;

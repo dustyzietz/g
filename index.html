@@ -7,15 +7,23 @@
   
 <body>
 	<div class="headwrap">
-	<div class="drop button">	<img src="dropdown.png" alt="no pic" width="100%" height="100%">
-<div class="dropcontent">
 
-	<a href="">Mission</a>
-	<a href="">Bio</a>
-	<a href="">Featured Exercise</a>
-	<a href="">Locations</a>
-	<a href="">Pricing</a>
-	<a id="z" href="">Waiver</a>
+	<div class="drop">	<img src="dropdown.png" alt="no pic" width="100%" height="100%">
+<div id="dropc" class="dropcontent" >
+	
+	<div class="dropitem" id="di1" onclick="page1()">Mission</div>
+	  <div class="dropitem" id="di2">Bio</div>
+	<div class="dropitem" id="di3">Featured Exercise</div>
+	<div class="dropitem" id="di4">Locations</div>
+	<div class="dropitem" id="di5">Pricing</div>
+	<div class="dropitem" id="di6">Waiver</div>
+	<div id="p1" class="page" >
+		<div  class="closebut" onclick="document.getElementById('p1').style.visibility='hidden'">
+			<img src="close.png"  alt="close" height="100%" width="100%">
+		</div>
+		 <h1>this is a page</h1>
+		<p>it will have lots of stuff in it</p>
+	</div>
 </div>
 
 </div>
@@ -88,5 +96,11 @@ FEATURED EXERCISE
 <input type="email" name="useremail" placeholder="Email Address"><br>
 <button class="button l" onclick="">SIGN UP</button>
 </div>
+<script>
+	function page1() {
+		document.getElementById('p1').style.visibility = "visible";
+}
+	
+</script> 
 </body>
 </html>
