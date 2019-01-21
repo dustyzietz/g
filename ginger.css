@@ -7,19 +7,16 @@ body {
 	margin: 4vw;
 }
 .headwrap {
-	position: fixed;
 	background-color: white;
 	top: 0;
+	text-align: center;
 }
 .a {
 	padding: 0;
 }
 .a img {
 	border-radius: 50%;
-margin-left: 30%;
-}
-.c {
-	margin-top: 30vw;
+    margin: 2% 0 0 20%;
 }
 
 .drop {
@@ -27,7 +24,7 @@ margin-left: 30%;
 	height: 20%;
 	float: right;
 	position: relative;
-	margin: 5% 5% 0 0;
+	margin: 3% 5% 0 0;
 }
 
 #dropc {
@@ -42,67 +39,57 @@ margin-left: 30%;
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 	transition: 1s;
-   width: 98vw;
+   width: 30vw;
 }
 div.drop:hover #dropc {
 	visibility: visible;
 	opacity: 1;
 }
-div.dropitem {
+a.dropitem {
+	text-decoration: none;
+	display: block;
 	padding: 2vw 5vw;
 	color: white;
 	border-bottom: thin solid white;
 }
-div.di6 { border: none; }
-
-
-.page {
-	border-radius: 5%;
-	position: absolute;
-	visibility: hidden;
-	background-color: black;
-	width: 100%;
-	height: 125vw;
-	text-align: center;
-	top: 0;
-}
-div.closebut {
-	width: 20%;
-	height: auto;
-	float: right;
-	margin: 5% 5% 0 0;
-	filter:invert(100%);
-}
-
+a#di6 { border: none; }
 
 .btext {
 	text-align: center;
-	font-size: 5vw;
+	font-size: 4vw;
 	padding: 2vw 0;
+	font-family: Neuton;
+	letter-spacing: .1em;
 }
 .stext {
 	text-align: center;
-	font-size: 2.5vw;
-
+	font-size: 3vw;
+	font-family: "Sans Pro" ;
+	letter-spacing: .1em;
 }
-.link {
-	font-size: 5vw;
+.ftext {
+    font-size: 9vw;
+	font-family: Tangerine;
+	font-weight: bold;
 	text-align: center;
-	margin: 2vw 2vw 4vw;
-	padding: 2vw 0;
+}
+.d {
+	text-align: center;
+	margin:  0 2vw;
+	padding: 2vw ;
 }
 .d span {
 	border-bottom: .2vw solid grey;
 
 }
-.link a {
+.d a {
 	text-decoration: none;
 	color: grey;
 }
-.link:hover a {
+.d:hover a {
 	color: black;
 }
-.link:hover {
+.d:hover {
 	border: .2vw dashed rgb(255, 0, 255);
 }
 iframe {
@@ -135,15 +122,6 @@ div.frame2 {
 }
 .thumbnail img:hover {
 	box-shadow: 0 0 2vw 1vw rgb(255, 0, 255);
-}
-.f {
-
-	font-weight: bold;
-}
-.g {
-	border-bottom: .2vw dotted grey;
-	font-size: 3vw;
-		letter-spacing: .1em;
 }
 
 .icons a {
