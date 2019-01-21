@@ -39,7 +39,7 @@ body {
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 	transition: 1s;
-   width: 30vw;
+   width: 60vw;
 }
 div.drop:hover #dropc {
 	visibility: visible;
@@ -64,8 +64,7 @@ a#di6 { border: none; }
 .stext {
 	text-align: center;
 	font-size: 3.5vw;
-	font-family: "Sans Pro" ;
-	letter-spacing: .1em;
+	font-family: "Source Sans Pro" ;
 }
 .ftext {
     font-size: 9vw;
@@ -77,6 +76,7 @@ a#di6 { border: none; }
 	text-align: center;
 	margin:  0 2vw;
 	padding: 2vw ;
+	border: .2vw dashed rgb(255, 0, 255);
 }
 .d span {
 	border-bottom: .2vw solid grey;
@@ -84,14 +84,9 @@ a#di6 { border: none; }
 }
 .d a {
 	text-decoration: none;
-	color: grey;
-}
-.d:hover a {
 	color: black;
 }
-.d:hover {
-	border: .2vw dashed rgb(255, 0, 255);
-}
+
 iframe {
 	border: none;
 	width:100%;
@@ -148,4 +143,7 @@ div.icons {
 	display:block;
 	margin: 2vw auto 4vw;
 	float: none;
+}
+.limg {
+	float: left;
 }
